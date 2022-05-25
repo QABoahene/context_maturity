@@ -69,7 +69,7 @@ print("\nHere are the album(s) and mixtape(s) by " + artist_to_search + " with l
 for index, track in enumerate(artist_albums):
     print(f"{index+1} - {track[0]}")
 
-# choose which tracks to use as a seed to generate a playlist
+# choose which albums to download lyrics of
 indexes = input("\nEnter a list of albums tracks you'd like to download. Use indexes separated by a space: ")
 indexes = indexes.split()
 chosen_albums = [artist_albums[int(index)-1] for index in indexes]
