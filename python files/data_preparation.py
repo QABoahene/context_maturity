@@ -1,7 +1,9 @@
 # Needed modules
 import pandas as pd
 import os
+
 # Data Preparation function
+
 ## List album folders there
 def list_artists(artists_folder_link):
     directory_list = [item for item in os.listdir(artists_folder_link) if os.path.isdir(os.path.join(artists_folder_link, item))]
@@ -18,6 +20,9 @@ for index, artist in enumerate(artist_list):
 indexes = input("\nEnter the index of the artist you want: ")
 chosen_artist = [artist_list[int(index)-1] for index in indexes]
 print("\nYou chose " + chosen_artist[0] + ", lets get their data for you!")
+
+
+
 ## Select artist
 ## Import the data  
 ## Add album name column
