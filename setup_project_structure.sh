@@ -83,7 +83,6 @@ MIT License
 Copyright (c) 2025 Q.A. Boahene
 
 Permission is hereby granted, free of charge, to any person obtaining a copy...
-(full MIT license content here — you can copy/paste full version from mit-license.org)
 EOL
     echo "📜 Created LICENSE file"
 fi
